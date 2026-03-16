@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 12:18:21 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Mar 2026 18:27:01 +0530</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Concepts to Practice: Learning Information, DIKW model, Markdown and My first reflection blog</title>
+      <link>https://example.org/posts/unit-one-reflection/</link>
+      <pubDate>Mon, 16 Mar 2026 18:27:01 +0530</pubDate>
+      <guid>https://example.org/posts/unit-one-reflection/</guid>
+      <description>&lt;p&gt;###&lt;strong&gt;Reflection&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the first unit of the course, we started by looking at different graphs and discussing what was wrong with them. This activity was interesting because it showed how easily graphs can mislead people if they are not designed carefully.&#xA;Another interesting part of the unit was practicing how to draw inferences from datasets. Writing a single sentence to summarize the meaning of a dataset was harder than I expected, but it was useful because it required us to focus on most important information rather than getting lost in the details.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://example.org/posts/my-first-post/</link>
       <pubDate>Wed, 28 Jan 2026 12:18:21 +0530</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://example.org/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hi, I am Khushi Sharma.&lt;/p&gt;&#xA;&lt;p&gt;I am currently pursuing a degree in Information Science. This blog is part of my course, &amp;ldquo;&lt;em&gt;Becoming a Reflective Informative Scientist&lt;/em&gt; &amp;ldquo;, where we are encouraged not just to learn concepts, but to think, question and reflect on how we learn.&#xA;I am still exploring this field and trying to understand things step by step.&#xA;Through this blog, I will share my learning experience, the challenges I face and how I grow during this course.&lt;/p&gt;</description>
     </item>
   </channel>
