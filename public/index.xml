@@ -6,14 +6,21 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2026 18:27:01 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 20:11:47 +0530</lastBuildDate>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Image Processing and Optimization</title>
+      <link>https://example.org/posts/unit-two-reflection/</link>
+      <pubDate>Mon, 16 Mar 2026 20:11:47 +0530</pubDate>
+      <guid>https://example.org/posts/unit-two-reflection/</guid>
+      <description>&lt;h3 id=&#34;reflection&#34;&gt;&lt;strong&gt;Reflection&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;In this unit, we explored how images can be understood and processed using numbers and mathematical ideas. One of the first topics was learning about pixels and how images are represented digitally. Before this unit, I never really thought about how images are stored or processed inside a computer. It was interesting to learn that images are actually made up of many pixels, and each pixels store numerical values that represent color or brightness.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>From Concepts to Practice: Learning Information, DIKW model, Markdown and My first reflection blog</title>
       <link>https://example.org/posts/unit-one-reflection/</link>
       <pubDate>Mon, 16 Mar 2026 18:27:01 +0530</pubDate>
       <guid>https://example.org/posts/unit-one-reflection/</guid>
-      <description>&lt;p&gt;###&lt;strong&gt;Reflection&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the first unit of the course, we started by looking at different graphs and discussing what was wrong with them. This activity was interesting because it showed how easily graphs can mislead people if they are not designed carefully.&#xA;Another interesting part of the unit was practicing how to draw inferences from datasets. Writing a single sentence to summarize the meaning of a dataset was harder than I expected, but it was useful because it required us to focus on most important information rather than getting lost in the details.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;reflection&#34;&gt;&lt;strong&gt;Reflection&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;In the first unit of the course, we started by looking at different graphs and discussing what was wrong with them. This activity was interesting because it showed how easily graphs can mislead people if they are not designed carefully.&#xA;Another interesting part of the unit was practicing how to draw inferences from datasets. Writing a single sentence to summarize the meaning of a dataset was harder than I expected, but it was useful because it required us to focus on most important information rather than getting lost in the details.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>

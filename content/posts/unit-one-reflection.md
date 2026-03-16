@@ -3,7 +3,7 @@ date = '2026-03-16T18:27:01+05:30'
 draft = false
 title = 'From Concepts to Practice: Learning Information, DIKW model, Markdown and My first reflection blog'
 +++
-###**Reflection**
+### **Reflection**
 
 In the first unit of the course, we started by looking at different graphs and discussing what was wrong with them. This activity was interesting because it showed how easily graphs can mislead people if they are not designed carefully.
 Another interesting part of the unit was practicing how to draw inferences from datasets. Writing a single sentence to summarize the meaning of a dataset was harder than I expected, but it was useful because it required us to focus on most important information rather than getting lost in the details.
