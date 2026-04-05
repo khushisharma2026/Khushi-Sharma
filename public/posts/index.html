@@ -49,8 +49,8 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Posts">
-  <meta itemprop="datePublished" content="2026-03-16T20:11:47+05:30">
-  <meta itemprop="dateModified" content="2026-03-16T20:11:47+05:30">
+  <meta itemprop="datePublished" content="2026-04-05T17:12:03+05:30">
+  <meta itemprop="dateModified" content="2026-04-05T17:12:03+05:30">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
 
@@ -95,6 +95,26 @@
   <article class="pa3 pa4-ns nested-copy-line-height">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section>
     <section class="flex-ns mt5 flex-wrap justify-around">
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/unit3reflection/" class="link black dim">
+        Failure as a Path to Growth
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h3 id="reflection"><strong>Reflection</strong></h3>
+<p>The third unit involved creating a failure wiki in groups. This unit helped me learn a differernt perspective on failure and its role in the learning process. Initially, I used to associate failure with negative outcomes, but this unit introduced me the concept of intelligent failure and how to make failure a roadmap to success.
+Our group was assigned the Ariane 5 case study, which highlighted how minor mistakes can lead to significant failures. It also helped me understand that multiple small issues results in a failure.</p>
+    </div>
+    <a href="/posts/unit3reflection/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
       
         <div class="w-100 w-30-l mb4 relative bg-white">
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
@@ -151,6 +171,80 @@ I am still exploring this field and trying to understand things step by step.
 Through this blog, I will share my learning experience, the challenges I face and how I grow during this course.</p>
     </div>
     <a href="/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/failure-wiki/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h2 id="ariane-5-and-its-failure"><strong>Ariane 5 and its failure</strong></h2>
+<p>At 1985 Ministral conference, ESA (European Space Agency) decided to develop a &lsquo;Future European Launcher&rsquo; to replace Ariane 4 and to participate in the space station being proposed for international collaboration by NASA. The Ariane 5 programme was approved at the 1987 Ministral conference. The mission plans included for 1995 Ariane 5 were: Low-Earth orbit, Geostationary and Sun-synchronous. Due to malfunction in the control software, the maiden flight of Ariane 5 (Flight 501) failed 37 seconds after the launch on June 4, 1996. The second test flight (502) on  30th October 1997 was a partial failure. The third test flight (503) on 21st October 1998 was a success. What had caused the failure in launch?
+<img src="https://miro.medium.com/v2/resize:fit:948/1*4Oedorc53ecHu1Fwb8X3Vw.jpeg" alt="Ariane 5" title="Ariane 5">
+Ariane 5 software developers reused code from the Ariane 4 which had been developed 10 years before. The code that caused the problems was in the Inertial Reference System. This was responsible for aligning the rockets before take-off. The developers had added a delay to account for the common inaccuracy of flight launch time, meaning the code was running when it shouldn&rsquo;t have been. The Inertial Reference System was used to determine whether it was increasing or decreasing, and this is known as horizontal bias or BH value.
+This value was represented by a 64-bit floating variable. A 64-bit floating point can represent numbers from 10^ -383 to 10^ 384. A 16-bit signed integer can store numbers from -32,768 to 32,767 Problems began to occur when the software attempted to stuff this 64-bit variable into a 16-bit integer.
+For the first few seconds of flight, the rockets&rsquo;s acceleration was low, so the conversion between these two values were succesful. However, as the rocket&rsquo;s velocity increased, the 64-bit variable exceeded 65k, and became too-large to fit in a 16-bit variable. At this point, the processor encountered an opperand error and increased the BH variable with a diagnostic value.
+The backup Initial Reference System also failed due to the same error condition. At T+37, the BH variable had a diagnostic value from the processor, intended for debugging purposes only.</p>
+    </div>
+    <a href="/posts/failure-wiki/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/new-draft-for-failure-wiki/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h3 id="overview"><strong>Overview</strong></h3>
+<h4 id="ariane-5-flight-501--quick-facts">Ariane 5 Flight 501 – Quick Facts</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Ariane 5 Flight 501</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Date</td>
+          <td>June 4, 1996</td>
+      </tr>
+      <tr>
+          <td>Agency</td>
+          <td>ESA</td>
+      </tr>
+      <tr>
+          <td>Outcome</td>
+          <td>Failure (37 seconds after launch)</td>
+      </tr>
+      <tr>
+          <td>Cause</td>
+          <td>Software error (overflow)</td>
+      </tr>
+      <tr>
+          <td>Loss</td>
+          <td>~$370 million</td>
+      </tr>
+  </tbody>
+</table>
+<p>The Ariane 5 was developed by the <a href="https://en.wikipedia.org/wiki/European_Space_Agency">European Space Agency</a> as part of a long-term effort to maintain Europe&rsquo;s access to space. In the 1985 Ministeral Conference, ESA decided to create a more powerful launch vehicle than Ariane 4 and to supporrt future missions, including taking part in space stations proposed by <a href="https://en.wikipedia.org/wiki/NASA">NASA</a>. The Ariane 5 was officialy aprroved at the 1987 Ministeral Conference. It was designed to carry heavy payloads into Low-Earth Orbit, Geostationary Orbit and Sun-synchronous Orbit.</p>
+    </div>
+    <a href="/posts/new-draft-for-failure-wiki/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 

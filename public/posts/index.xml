@@ -6,8 +6,15 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2026 20:11:47 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 17:12:03 +0530</lastBuildDate>
     <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failure as a Path to Growth</title>
+      <link>https://example.org/posts/unit3reflection/</link>
+      <pubDate>Sun, 05 Apr 2026 17:12:03 +0530</pubDate>
+      <guid>https://example.org/posts/unit3reflection/</guid>
+      <description>&lt;h3 id=&#34;reflection&#34;&gt;&lt;strong&gt;Reflection&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The third unit involved creating a failure wiki in groups. This unit helped me learn a differernt perspective on failure and its role in the learning process. Initially, I used to associate failure with negative outcomes, but this unit introduced me the concept of intelligent failure and how to make failure a roadmap to success.&#xA;Our group was assigned the Ariane 5 case study, which highlighted how minor mistakes can lead to significant failures. It also helped me understand that multiple small issues results in a failure.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Exploring Image Processing and Optimization</title>
       <link>https://example.org/posts/unit-two-reflection/</link>
@@ -28,6 +35,20 @@
       <pubDate>Wed, 28 Jan 2026 12:18:21 +0530</pubDate>
       <guid>https://example.org/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hi, I am Khushi Sharma.&lt;/p&gt;&#xA;&lt;p&gt;I am currently pursuing a degree in Information Science. This blog is part of my course, &amp;ldquo;&lt;em&gt;Becoming a Reflective Informative Scientist&lt;/em&gt; &amp;ldquo;, where we are encouraged not just to learn concepts, but to think, question and reflect on how we learn.&#xA;I am still exploring this field and trying to understand things step by step.&#xA;Through this blog, I will share my learning experience, the challenges I face and how I grow during this course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/posts/failure-wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/failure-wiki/</guid>
+      <description>&lt;h2 id=&#34;ariane-5-and-its-failure&#34;&gt;&lt;strong&gt;Ariane 5 and its failure&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;At 1985 Ministral conference, ESA (European Space Agency) decided to develop a &amp;lsquo;Future European Launcher&amp;rsquo; to replace Ariane 4 and to participate in the space station being proposed for international collaboration by NASA. The Ariane 5 programme was approved at the 1987 Ministral conference. The mission plans included for 1995 Ariane 5 were: Low-Earth orbit, Geostationary and Sun-synchronous. Due to malfunction in the control software, the maiden flight of Ariane 5 (Flight 501) failed 37 seconds after the launch on June 4, 1996. The second test flight (502) on  30th October 1997 was a partial failure. The third test flight (503) on 21st October 1998 was a success. What had caused the failure in launch?&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:948/1*4Oedorc53ecHu1Fwb8X3Vw.jpeg&#34; alt=&#34;Ariane 5&#34; title=&#34;Ariane 5&#34;&gt;&#xA;Ariane 5 software developers reused code from the Ariane 4 which had been developed 10 years before. The code that caused the problems was in the Inertial Reference System. This was responsible for aligning the rockets before take-off. The developers had added a delay to account for the common inaccuracy of flight launch time, meaning the code was running when it shouldn&amp;rsquo;t have been. The Inertial Reference System was used to determine whether it was increasing or decreasing, and this is known as horizontal bias or BH value.&#xA;This value was represented by a 64-bit floating variable. A 64-bit floating point can represent numbers from 10^ -383 to 10^ 384. A 16-bit signed integer can store numbers from -32,768 to 32,767 Problems began to occur when the software attempted to stuff this 64-bit variable into a 16-bit integer.&#xA;For the first few seconds of flight, the rockets&amp;rsquo;s acceleration was low, so the conversion between these two values were succesful. However, as the rocket&amp;rsquo;s velocity increased, the 64-bit variable exceeded 65k, and became too-large to fit in a 16-bit variable. At this point, the processor encountered an opperand error and increased the BH variable with a diagnostic value.&#xA;The backup Initial Reference System also failed due to the same error condition. At T+37, the BH variable had a diagnostic value from the processor, intended for debugging purposes only.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/posts/new-draft-for-failure-wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/new-draft-for-failure-wiki/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;ariane-5-flight-501--quick-facts&#34;&gt;Ariane 5 Flight 501 – Quick Facts&lt;/h4&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Ariane 5 Flight 501&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Date&lt;/td&gt;&#xA;          &lt;td&gt;June 4, 1996&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Agency&lt;/td&gt;&#xA;          &lt;td&gt;ESA&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Outcome&lt;/td&gt;&#xA;          &lt;td&gt;Failure (37 seconds after launch)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Cause&lt;/td&gt;&#xA;          &lt;td&gt;Software error (overflow)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Loss&lt;/td&gt;&#xA;          &lt;td&gt;~$370 million&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;The Ariane 5 was developed by the &lt;a href=&#34;https://en.wikipedia.org/wiki/European_Space_Agency&#34;&gt;European Space Agency&lt;/a&gt; as part of a long-term effort to maintain Europe&amp;rsquo;s access to space. In the 1985 Ministeral Conference, ESA decided to create a more powerful launch vehicle than Ariane 4 and to supporrt future missions, including taking part in space stations proposed by &lt;a href=&#34;https://en.wikipedia.org/wiki/NASA&#34;&gt;NASA&lt;/a&gt;. The Ariane 5 was officialy aprroved at the 1987 Ministeral Conference. It was designed to carry heavy payloads into Low-Earth Orbit, Geostationary Orbit and Sun-synchronous Orbit.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

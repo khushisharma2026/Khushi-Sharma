@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/posts/unit-two-reflection/</loc>
-    <lastmod>2026-03-16T20:11:47+05:30</lastmod>
+    <loc>https://example.org/posts/unit3reflection/</loc>
+    <lastmod>2026-04-05T17:12:03+05:30</lastmod>
   </url><url>
     <loc>https://example.org/</loc>
-    <lastmod>2026-03-16T20:11:47+05:30</lastmod>
+    <lastmod>2026-04-05T17:12:03+05:30</lastmod>
   </url><url>
     <loc>https://example.org/posts/</loc>
+    <lastmod>2026-04-05T17:12:03+05:30</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/unit-two-reflection/</loc>
     <lastmod>2026-03-16T20:11:47+05:30</lastmod>
   </url><url>
     <loc>https://example.org/posts/unit-one-reflection/</loc>
@@ -16,6 +19,10 @@
   </url><url>
     <loc>https://example.org/posts/my-first-post/</loc>
     <lastmod>2026-01-28T12:18:21+05:30</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/failure-wiki/</loc>
+  </url><url>
+    <loc>https://example.org/posts/new-draft-for-failure-wiki/</loc>
   </url><url>
     <loc>https://example.org/categories/</loc>
   </url><url>

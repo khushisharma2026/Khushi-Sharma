@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Ariane 5 and its failure
+At 1985 Ministral conference, ESA (European Space Agency) decided to develop a &lsquo;Future European Launcher&rsquo; to replace Ariane 4 and to participate in the space station being proposed for international collaboration by NASA. The Ariane 5 programme was approved at the 1987 Ministral conference. The mission plans included for 1995 Ariane 5 were: Low-Earth orbit, Geostationary and Sun-synchronous. Due to malfunction in the control software, the maiden flight of Ariane 5 (Flight 501) failed 37 seconds after the launch on June 4, 1996. The second test flight (502) on  30th October 1997 was a partial failure. The third test flight (503) on 21st October 1998 was a success. What had caused the failure in launch?
+
+Ariane 5 software developers reused code from the Ariane 4 which had been developed 10 years before. The code that caused the problems was in the Inertial Reference System. This was responsible for aligning the rockets before take-off. The developers had added a delay to account for the common inaccuracy of flight launch time, meaning the code was running when it shouldn&rsquo;t have been. The Inertial Reference System was used to determine whether it was increasing or decreasing, and this is known as horizontal bias or BH value.
+This value was represented by a 64-bit floating variable. A 64-bit floating point can represent numbers from 10^ -383 to 10^ 384. A 16-bit signed integer can store numbers from -32,768 to 32,767 Problems began to occur when the software attempted to stuff this 64-bit variable into a 16-bit integer.
+For the first few seconds of flight, the rockets&rsquo;s acceleration was low, so the conversion between these two values were succesful. However, as the rocket&rsquo;s velocity increased, the 64-bit variable exceeded 65k, and became too-large to fit in a 16-bit variable. At this point, the processor encountered an opperand error and increased the BH variable with a diagnostic value.
+The backup Initial Reference System also failed due to the same error condition. At T&#43;37, the BH variable had a diagnostic value from the processor, intended for debugging purposes only.">
+    <meta name="generator" content="Hugo 0.154.5">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://example.org/posts/failure-wiki/">
+    
+
+    
+    
+    <meta property="og:url" content="https://example.org/posts/failure-wiki/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="My New Hugo Site">
+  <meta property="og:description" content="Ariane 5 and its failure At 1985 Ministral conference, ESA (European Space Agency) decided to develop a ‘Future European Launcher’ to replace Ariane 4 and to participate in the space station being proposed for international collaboration by NASA. The Ariane 5 programme was approved at the 1987 Ministral conference. The mission plans included for 1995 Ariane 5 were: Low-Earth orbit, Geostationary and Sun-synchronous. Due to malfunction in the control software, the maiden flight of Ariane 5 (Flight 501) failed 37 seconds after the launch on June 4, 1996. The second test flight (502) on 30th October 1997 was a partial failure. The third test flight (503) on 21st October 1998 was a success. What had caused the failure in launch? Ariane 5 software developers reused code from the Ariane 4 which had been developed 10 years before. The code that caused the problems was in the Inertial Reference System. This was responsible for aligning the rockets before take-off. The developers had added a delay to account for the common inaccuracy of flight launch time, meaning the code was running when it shouldn’t have been. The Inertial Reference System was used to determine whether it was increasing or decreasing, and this is known as horizontal bias or BH value. This value was represented by a 64-bit floating variable. A 64-bit floating point can represent numbers from 10^ -383 to 10^ 384. A 16-bit signed integer can store numbers from -32,768 to 32,767 Problems began to occur when the software attempted to stuff this 64-bit variable into a 16-bit integer. For the first few seconds of flight, the rockets’s acceleration was low, so the conversion between these two values were succesful. However, as the rocket’s velocity increased, the 64-bit variable exceeded 65k, and became too-large to fit in a 16-bit variable. At this point, the processor encountered an opperand error and increased the BH variable with a diagnostic value. The backup Initial Reference System also failed due to the same error condition. At T&#43;37, the BH variable had a diagnostic value from the processor, intended for debugging purposes only.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+  <meta itemprop="name" content="My New Hugo Site">
+  <meta itemprop="description" content="Ariane 5 and its failure At 1985 Ministral conference, ESA (European Space Agency) decided to develop a ‘Future European Launcher’ to replace Ariane 4 and to participate in the space station being proposed for international collaboration by NASA. The Ariane 5 programme was approved at the 1987 Ministral conference. The mission plans included for 1995 Ariane 5 were: Low-Earth orbit, Geostationary and Sun-synchronous. Due to malfunction in the control software, the maiden flight of Ariane 5 (Flight 501) failed 37 seconds after the launch on June 4, 1996. The second test flight (502) on 30th October 1997 was a partial failure. The third test flight (503) on 21st October 1998 was a success. What had caused the failure in launch? Ariane 5 software developers reused code from the Ariane 4 which had been developed 10 years before. The code that caused the problems was in the Inertial Reference System. This was responsible for aligning the rockets before take-off. The developers had added a delay to account for the common inaccuracy of flight launch time, meaning the code was running when it shouldn’t have been. The Inertial Reference System was used to determine whether it was increasing or decreasing, and this is known as horizontal bias or BH value. This value was represented by a 64-bit floating variable. A 64-bit floating point can represent numbers from 10^ -383 to 10^ 384. A 16-bit signed integer can store numbers from -32,768 to 32,767 Problems began to occur when the software attempted to stuff this 64-bit variable into a 16-bit integer. For the first few seconds of flight, the rockets’s acceleration was low, so the conversion between these two values were succesful. However, as the rocket’s velocity increased, the 64-bit variable exceeded 65k, and became too-large to fit in a 16-bit variable. At this point, the processor encountered an opperand error and increased the BH variable with a diagnostic value. The backup Initial Reference System also failed due to the same error condition. At T&#43;37, the BH variable had a diagnostic value from the processor, intended for debugging purposes only.">
+  <meta itemprop="wordCount" content="538">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="My New Hugo Site">
+  <meta name="twitter:description" content="Ariane 5 and its failure At 1985 Ministral conference, ESA (European Space Agency) decided to develop a ‘Future European Launcher’ to replace Ariane 4 and to participate in the space station being proposed for international collaboration by NASA. The Ariane 5 programme was approved at the 1987 Ministral conference. The mission plans included for 1995 Ariane 5 were: Low-Earth orbit, Geostationary and Sun-synchronous. Due to malfunction in the control software, the maiden flight of Ariane 5 (Flight 501) failed 37 seconds after the launch on June 4, 1996. The second test flight (502) on 30th October 1997 was a partial failure. The third test flight (503) on 21st October 1998 was a success. What had caused the failure in launch? Ariane 5 software developers reused code from the Ariane 4 which had been developed 10 years before. The code that caused the problems was in the Inertial Reference System. This was responsible for aligning the rockets before take-off. The developers had added a delay to account for the common inaccuracy of flight launch time, meaning the code was running when it shouldn’t have been. The Inertial Reference System was used to determine whether it was increasing or decreasing, and this is known as horizontal bias or BH value. This value was represented by a 64-bit floating variable. A 64-bit floating point can represent numbers from 10^ -383 to 10^ 384. A 16-bit signed integer can store numbers from -32,768 to 32,767 Problems began to occur when the software attempted to stuff this 64-bit variable into a 16-bit integer. For the first few seconds of flight, the rockets’s acceleration was low, so the conversion between these two values were succesful. However, as the rocket’s velocity increased, the 64-bit variable exceeded 65k, and became too-large to fit in a 16-bit variable. At this point, the processor encountered an opperand error and increased the BH variable with a diagnostic value. The backup Initial Reference System also failed due to the same error condition. At T&#43;37, the BH variable had a diagnostic value from the processor, intended for debugging purposes only.">
+
+      
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production is-page is-page page-Failure Wiki">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-Failure Wiki flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h2 id="ariane-5-and-its-failure"><strong>Ariane 5 and its failure</strong></h2>
+<p>At 1985 Ministral conference, ESA (European Space Agency) decided to develop a &lsquo;Future European Launcher&rsquo; to replace Ariane 4 and to participate in the space station being proposed for international collaboration by NASA. The Ariane 5 programme was approved at the 1987 Ministral conference. The mission plans included for 1995 Ariane 5 were: Low-Earth orbit, Geostationary and Sun-synchronous. Due to malfunction in the control software, the maiden flight of Ariane 5 (Flight 501) failed 37 seconds after the launch on June 4, 1996. The second test flight (502) on  30th October 1997 was a partial failure. The third test flight (503) on 21st October 1998 was a success. What had caused the failure in launch?
+<img src="https://miro.medium.com/v2/resize:fit:948/1*4Oedorc53ecHu1Fwb8X3Vw.jpeg" alt="Ariane 5" title="Ariane 5">
+Ariane 5 software developers reused code from the Ariane 4 which had been developed 10 years before. The code that caused the problems was in the Inertial Reference System. This was responsible for aligning the rockets before take-off. The developers had added a delay to account for the common inaccuracy of flight launch time, meaning the code was running when it shouldn&rsquo;t have been. The Inertial Reference System was used to determine whether it was increasing or decreasing, and this is known as horizontal bias or BH value.
+This value was represented by a 64-bit floating variable. A 64-bit floating point can represent numbers from 10^ -383 to 10^ 384. A 16-bit signed integer can store numbers from -32,768 to 32,767 Problems began to occur when the software attempted to stuff this 64-bit variable into a 16-bit integer.
+For the first few seconds of flight, the rockets&rsquo;s acceleration was low, so the conversion between these two values were succesful. However, as the rocket&rsquo;s velocity increased, the 64-bit variable exceeded 65k, and became too-large to fit in a 16-bit variable. At this point, the processor encountered an opperand error and increased the BH variable with a diagnostic value.
+The backup Initial Reference System also failed due to the same error condition. At T+37, the BH variable had a diagnostic value from the processor, intended for debugging purposes only.</p>
+<p>There are several factors that made this launch a failure. Firstly, the BH value wasn’t even required after launch, and had simply been left in the codebase from the rocket’s predecessor, the Ariane 4, which did require this value for post-launch alignment. Secondly, code which would have caught and handled these conversion errors had been disabled for the BH value, due to performance constraints on the Ariane 4 hardware which did not apply to Ariane 5.</p>
+<p>A final contributing factor was a change in user requirements – specifically in the rocket’s flight plan. The Ariane 5 launched with a much steeper trajectory than the Ariane 4, which resulted in greater vertical velocity. As the rocket sped to space faster, there was a higher certainty that the BH value would encounter the conversion error.</p>
+<p>Ultimately, the European Space Agency assembled a team to recover logs from the two Inertial Reference Systems, which were spread over a debris field of approximately 12 square kilometers. Their work was impeded by treacherous marshland terrain, hazardous chemicals dispersed from the rocket, and immense public scrutiny from the media, all because of a single type casting error.</p>
+<ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://example.org/" >
+    &copy;  My New Hugo Site 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
