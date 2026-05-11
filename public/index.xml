@@ -6,8 +6,15 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Apr 2026 17:12:03 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 17:53:39 +0530</lastBuildDate>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating chatbot and dashboard</title>
+      <link>https://example.org/posts/unit4reflection/</link>
+      <pubDate>Mon, 11 May 2026 17:53:39 +0530</pubDate>
+      <guid>https://example.org/posts/unit4reflection/</guid>
+      <description>&lt;h3 id=&#34;reflection&#34;&gt;&lt;strong&gt;Reflection&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;In this unit, we worked on two projects, creating a chatbot and building a dashboard on metabase. Both the projects were fun since it was new for me to learn and we had to use our creativeness to design the projects.&#xA;I used resources from google and watched videos to learn about these tools. If i compare both the projects, building a chatbot was easier. It was just like how we play with building blocks and create something. But connecting the buttons to different sections was slightly confusing. Once I understood the concepts, it became easier to structure the chatbot. While designing a chatbot, I realized that it is not just about adding information, but organising it in a way such that it becomes easier for the user to navigate. This project was mostly individual based and group planning was not really required.&#xA;When we come to building dashboard, I felt it was a bit harder since it took me a lot of time to figure out what actually is a dashboard. The most challenging part for me was to think of a storyline. This is because the concept of making a story out of graphs was a completely new concept to me. To get ideas of storyline, I took example dashboards created by various people, online. I also got to learn about graphs from this particular project. Group planning was required for the project to avoid making similar storylines. Overall, both the projects were fun and I could learn a lot, but the main thing I learnt from these projects were how to create and design things in such a way that it will be easier for user to understand and grasp the information and navigate.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Failure as a Path to Growth</title>
       <link>https://example.org/posts/unit3reflection/</link>
@@ -35,6 +42,13 @@
       <pubDate>Wed, 28 Jan 2026 12:18:21 +0530</pubDate>
       <guid>https://example.org/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hi, I am Khushi Sharma.&lt;/p&gt;&#xA;&lt;p&gt;I am currently pursuing a degree in Information Science. This blog is part of my course, &amp;ldquo;&lt;em&gt;Becoming a Reflective Informative Scientist&lt;/em&gt; &amp;ldquo;, where we are encouraged not just to learn concepts, but to think, question and reflect on how we learn.&#xA;I am still exploring this field and trying to understand things step by step.&#xA;Through this blog, I will share my learning experience, the challenges I face and how I grow during this course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/posts/dashboard-making-texts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/dashboard-making-texts/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A comprehensive study of national pollutant distribution, regional hotspots, and chemical correlations.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
