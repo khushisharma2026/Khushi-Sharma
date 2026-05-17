@@ -1,6 +1,6 @@
 +++
 date = '2026-05-11T19:40:58+05:30'
-draft = true
+draft = false
 title = 'Thoughts on Coding Against the Odds'
 +++
 ### **Reflections**
